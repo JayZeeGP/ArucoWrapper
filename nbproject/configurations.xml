@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/Handle.h</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoard.cpp</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoard.h</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardConfiguration.cpp</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardConfiguration.h</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardDetector.cpp</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardDetector.h</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JCameraParameters.cpp</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JCameraParameters.h</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JFiducidalMarkers.cpp</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JFiducidalMarkers.h</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarker.cpp</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarker.h</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarkerDetector.cpp</itemPath>
+      <itemPath>/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarkerDetector.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib/jvm/java-7-openjdk-amd64/include</pElem>
+            <pElem>/usr/lib/jvm/java-7-openjdk-amd64/include/linux</pElem>
+            <pElem>/home/jayzeegp/PFC/Aruco/aruco-1.2.4/src</pElem>
+            <pElem>/usr/local/include/opencv2</pElem>
+            <pElem>/home/jayzeegp/Descargas/opencv-2.4.8/release/lib</pElem>
+          </incDir>
+          <commandLine>-fPIC -shared -static-libgcc -static-libstdc++ -L/home/jayzeegp/PFC/Aruco/aruco-1.2.4/build/src -g -g -I/usr/local/include/opencv2 `pkg-config --cflags opencv` 
+</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>dist/libWrapperCPP.so</output>
+          <linkerDynSerch>
+            <pElem>/home/jayzeegp/PFC/Aruco/aruco-1.2.4/build/src</pElem>
+            <pElem>/usr/local/include/opencv2</pElem>
+            <pElem>/usr/local/include/opencv</pElem>
+            <pElem>/home/jayzeegp/Descargas/opencv-2.4.8/release/lib</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibFileItem>/home/jayzeegp/PFC/Aruco/aruco-1.2.4/build/src/libaruco.so</linkerLibFileItem>
+            <linkerOptionItem>`pkg-config --cflags opencv`</linkerOptionItem>
+            <linkerLibFileItem>/home/jayzeegp/NetBeansProjects/WrapperCPP/dist/libopencv_core.so</linkerLibFileItem>
+            <linkerLibLibItem>opencv_core</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/Handle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoard.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JCameraParameters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JCameraParameters.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JFiducidalMarkers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JFiducidalMarkers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarkerDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarkerDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/Handle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoard.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardConfiguration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JBoardDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JCameraParameters.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JCameraParameters.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JFiducidalMarkers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JFiducidalMarkers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarkerDetector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/jayzeegp/NetBeansProjects/WrapperCPP/JMarkerDetector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
